@@ -1,0 +1,14 @@
+<!DOCTYPE <!DOCTYPE html>
+<html ng-app>
+<head>
+	<title>Color Test</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body style="background-color: {{customColor}};">
+	<h1>Test some colors!</h1>
+	<input type="text" ng-model="customColor" placeholder="Enter the color here (#FF0000)">
+	<h1>{{customColor}}</h1>
+</body>
+</html>
